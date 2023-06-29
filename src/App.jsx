@@ -1,14 +1,16 @@
-
-import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Routes/Layout";
+import { routes } from './navigation/Routes'; 
 
 function App() {
   return (
-      <div className="App">
-          <Navbar/>
-          <Footer/>
-      </div>
+    <BrowserRouter >
+      <Routes>
+        <Route element={<Layout/>}>
+          {routes.map(({ id, path, Element }) => (<Route key={id} path={path} element={<Element/>} />))}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
