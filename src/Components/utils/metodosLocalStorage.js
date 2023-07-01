@@ -13,7 +13,7 @@ export const setFavoritosStorage = (odontologo) => {
         favoritos.push(odontologo)
         localStorage.setItem("favs", JSON.stringify(favoritos));
         alert(`Odontologo ${odontologo.name} se agregó a favoritos`)
-        // return true
+        // returntrue
     }else{
         alert(`Odontologo ${odontologo.name} ya esta en favoritos`)
     }

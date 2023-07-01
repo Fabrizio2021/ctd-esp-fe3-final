@@ -13,7 +13,7 @@ const Footer = () => {
             <img src="/images/DH.png"  alt='DH-logo'/>
           </div>
           <div className='social-media'>
-            <a href="https://cdn.memegenerator.es/imagenes/memes/full/22/58/22582194.jpg" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com" rel="noreferrer" target="_blank"><i className="fa-brands fa-facebook"></i></a>
             <a href="https://www.instagram.com" rel="noreferrer" target="_blank"><i className="fa-brands fa-instagram"></i></a>
             <a href="https://www.tiktok.com" rel="noreferrer" target="_blank"><i className="fa-brands fa-tiktok"></i></a>
             <a href="https://www.whatsapp.com" rel="noreferrer" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>

@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav>
         <div className='hamburguesa'>
           <Link to={"/"} >Home</Link>
-          <Link to={"/contact"} >Contacto</Link>
+          <Link to={"/contact"} >Contactos</Link>
           <Link to={"/favs"} >Favoritos</Link>
         </div>
         <div id="hamburguesaToggle">
@@ -25,7 +25,7 @@ const Navbar = () => {
           <MenuIcon/>
           <div id="menu">
             <Link to={"/"} >Home</Link>
-            <Link to={"/contact"} >Contacto</Link>
+            <Link to={"/contact"} >Contactos</Link>
             <Link to={"/favs"} >Favoritos</Link>
           </div>
         </div>
